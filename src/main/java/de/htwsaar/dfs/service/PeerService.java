@@ -1,12 +1,12 @@
-package de.htwsaar.dfs.service;
+package main.java.de.htwsaar.dfs.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import de.htwsaar.dfs.Database;
-import de.htwsaar.dfs.model.Peer;
-import de.htwsaar.dfs.model.Zone;
+import main.java.de.htwsaar.dfs.Database;
+import main.java.de.htwsaar.dfs.model.Peer;
+import main.java.de.htwsaar.dfs.model.Zone;
 
 public class PeerService {
 	

@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.resource;
+package main.java.de.htwsaar.dfs.resource;
 
 import java.awt.image.BufferedImage;
 import java.io.FileNotFoundException;
@@ -15,9 +15,9 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import de.htwsaar.dfs.model.Image;
-import de.htwsaar.dfs.model.Metadata;
-import de.htwsaar.dfs.service.ImageService;
+import main.java.de.htwsaar.dfs.model.Image;
+import main.java.de.htwsaar.dfs.model.Metadata;
+import main.java.de.htwsaar.dfs.service.ImageService;
 /**
  * 
  * @author Aude Nana

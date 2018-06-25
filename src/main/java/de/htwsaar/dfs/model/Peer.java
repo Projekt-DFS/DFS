@@ -120,9 +120,9 @@ public class Peer {
 			return ip_bootstrap;
 		}
 
-		public void setNeighbourList(ArrayList<Integer> neighbourList) {
-			this.neighbourList = neighbourList;
-		}
+//		public void setNeighbourList(ArrayList<Integer> neighbourList) {
+//			this.neighbourList = neighbourList;
+//		}
 
 		
 		

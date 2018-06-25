@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.resource;
+package main.java.de.htwsaar.dfs.resource;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import de.htwsaar.dfs.model.User;
-import de.htwsaar.dfs.service.UserService;
+import main.java.de.htwsaar.dfs.model.User;
+import main.java.de.htwsaar.dfs.service.UserService;
 
 /**
  * This class give access to users Resource

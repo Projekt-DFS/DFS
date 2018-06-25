@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import de.htwsaar.dfs.model.Peer;
+import main.java.de.htwsaar.dfs.model.Peer;
 import main.java.de.htwsaar.dfs.model.Bootstrap;
 
 /**

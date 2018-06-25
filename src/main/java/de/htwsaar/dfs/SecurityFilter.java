@@ -1,4 +1,4 @@
-package de.htwsaar.dfs;
+package main.java.de.htwsaar.dfs;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
@@ -17,9 +17,8 @@ import javax.ws.rs.ext.Provider;
 
 import org.glassfish.jersey.internal.util.Base64;
 
-import de.htwsaar.dfs.can_network.Bootstrap;
-import de.htwsaar.dfs.model.User;
-import de.htwsaar.dfs.service.UserService;
+import main.java.de.htwsaar.dfs.model.*;
+
 
 /**
  * SecurityFilter class.

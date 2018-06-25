@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.resource;
+package main.java.de.htwsaar.dfs.resource;
 
 import java.util.List;
 
@@ -12,9 +12,9 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import de.htwsaar.dfs.model.Peer;
-import de.htwsaar.dfs.model.Zone;
-import de.htwsaar.dfs.service.PeerService;
+import main.java.de.htwsaar.dfs.model.Peer;
+import main.java.de.htwsaar.dfs.model.Zone;
+import main.java.de.htwsaar.dfs.service.PeerService;
 
 /**
  * 

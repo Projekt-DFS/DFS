@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.exceptions;
+package main.java.de.htwsaar.dfs.exceptions;
 
 @SuppressWarnings("serial")
 public class EmptyStringException extends IllegalArgumentException {

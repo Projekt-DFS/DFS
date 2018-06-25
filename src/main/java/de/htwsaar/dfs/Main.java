@@ -1,4 +1,4 @@
-package de.htwsaar.dfs;
+package main.java.de.htwsaar.dfs;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.filter.LoggingFilter;
@@ -6,12 +6,7 @@ import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.media.multipart.MultiPartFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 
-import de.htwsaar.dfs.can_network.Bootstrap;
-import de.htwsaar.dfs.model.Image;
-import de.htwsaar.dfs.model.Metadata;
-import de.htwsaar.dfs.model.Peer;
-import de.htwsaar.dfs.model.User;
-import de.htwsaar.dfs.model.Zone;
+import main.java.de.htwsaar.dfs.model.*;
 
 import java.awt.geom.Point2D;
 import java.awt.image.BufferedImage;
@@ -54,7 +49,7 @@ public class Main {
     public static HttpServer startServer() throws UnknownHostException {
         // create a resource config that scans for JAX-RS resources and providers
         // in de.htwsaar.dfs.iosbootstrap package
-        final ResourceConfig rc = new ResourceConfig().packages("de.htwsaar.dfs.resource");
+        final ResourceConfig rc = new ResourceConfig().packages("main.java.de.htwsaar.dfs.resource");
         rc.register(MultiPartFeature.class);
         rc.register(LoggingFilter.class);
         rc.register(SecurityFilter.class);

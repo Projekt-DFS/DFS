@@ -13,10 +13,10 @@ import java.util.LinkedList;
 
 import javax.imageio.ImageIO;
 
-import de.htwsaar.dfs.can_network.Bootstrap;
-import de.htwsaar.dfs.can_network.ImageContainer;
-import de.htwsaar.dfs.can_network.Peer;
-import de.htwsaar.dfs.model.User;
+import main.java.de.htwsaar.dfs.model.Bootstrap;
+import main.java.de.htwsaar.dfs.model.ImageContainer;
+import main.java.de.htwsaar.dfs.model.Peer;
+import main.java.de.htwsaar.dfs.model.User;
 
 /**
  * @author Thomas Spanier

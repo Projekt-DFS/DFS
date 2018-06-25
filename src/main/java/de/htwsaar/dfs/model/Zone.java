@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.model;
+package main.java.de.htwsaar.dfs.model;
 import java.awt.geom.Point2D;
 
 import javax.xml.bind.annotation.XmlRootElement;

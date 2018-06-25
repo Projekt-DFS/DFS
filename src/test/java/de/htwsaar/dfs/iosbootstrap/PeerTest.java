@@ -8,8 +8,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.htwsaar.dfs.can_network.Peer;
-import main.java.de.htwsaar.dfs.can_network.Bootstrap;
+import main.java.de.htwsaar.dfs.model.Peer;
+import main.java.de.htwsaar.dfs.model.Bootstrap;
 
 /**
  * @author Thomas Spanier

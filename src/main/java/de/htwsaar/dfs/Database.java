@@ -1,11 +1,11 @@
-package de.htwsaar.dfs;
+package main.java.de.htwsaar.dfs;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import de.htwsaar.dfs.model.Image;
-import de.htwsaar.dfs.model.Peer;
-import de.htwsaar.dfs.model.User;
+import main.java.de.htwsaar.dfs.model.Image;
+import main.java.de.htwsaar.dfs.model.Peer;
+import main.java.de.htwsaar.dfs.model.User;
 
 /**
  * Dummy Database 

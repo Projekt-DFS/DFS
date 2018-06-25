@@ -1,16 +1,16 @@
-package de.htwsaar.dfs.iosbootstrap;
+package test.java.de.htwsaar.dfs.iosbootstrap;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 
 import org.glassfish.grizzly.http.server.HttpServer;
-
+ 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import main.java.de.htwsaar.dfs.Main;
 
-import de.htwsaar.dfs.Main;
 
 import static org.junit.Assert.assertEquals;
 

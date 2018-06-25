@@ -1,9 +1,8 @@
-package de.htwsaar.dfs.service;
+package main.java.de.htwsaar.dfs.service;
 
 import java.util.List;
+import main.java.de.htwsaar.dfs.model.*;
 
-import de.htwsaar.dfs.can_network.Bootstrap;
-import de.htwsaar.dfs.model.User;
 
 /**
  * 

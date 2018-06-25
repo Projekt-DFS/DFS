@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.model;
+package main.java.de.htwsaar.dfs.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

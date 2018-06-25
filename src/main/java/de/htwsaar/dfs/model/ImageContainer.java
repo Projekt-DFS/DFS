@@ -4,9 +4,9 @@ import java.awt.geom.Point2D;
 import java.util.Date;
 import java.util.LinkedList;
 
-import de.htwsaar.dfs.exceptions.EmptyStringException;
-import de.htwsaar.dfs.model.User;
-import de.htwsaar.dfs.utils.StaticFunctions;
+import main.java.de.htwsaar.dfs.exceptions.EmptyStringException;
+import main.java.de.htwsaar.dfs.model.User;
+import main.java.de.htwsaar.dfs.utils.StaticFunctions;
 
 import java.io.*;
 import java.awt.image.BufferedImage;

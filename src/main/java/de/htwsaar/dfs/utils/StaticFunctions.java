@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.utils;
+package main.java.de.htwsaar.dfs.utils;
 
 import java.awt.geom.Point2D;
 import java.awt.image.*;

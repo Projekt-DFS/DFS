@@ -1,4 +1,4 @@
-package de.htwsaar.dfs.service;
+package main.java.de.htwsaar.dfs.service;
 
 import java.awt.image.BufferedImage;
 import java.io.FileNotFoundException;
@@ -6,11 +6,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.htwsaar.dfs.can_network.Bootstrap;
-import de.htwsaar.dfs.can_network.ImageContainer;
-import de.htwsaar.dfs.model.Image;
-import de.htwsaar.dfs.model.Metadata;
-import de.htwsaar.dfs.utils.RestUtils;
+import main.java.de.htwsaar.dfs.model.Bootstrap;
+import main.java.de.htwsaar.dfs.model.ImageContainer;
+import main.java.de.htwsaar.dfs.model.Image;
+import main.java.de.htwsaar.dfs.model.Metadata;
+import main.java.de.htwsaar.dfs.utils.RestUtils;
 
 
 public class ImageService {

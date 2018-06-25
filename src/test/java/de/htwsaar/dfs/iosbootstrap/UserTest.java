@@ -9,7 +9,7 @@ import java.io.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.de.htwsaar.dfs.can_network.Bootstrap;
+import main.java.de.htwsaar.dfs.model.Bootstrap;
 
 /**
  * @author Thomas Spanier
